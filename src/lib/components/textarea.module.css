@@ -1,0 +1,32 @@
+.container textarea {
+    display: block;
+    resize: none;
+    width: 100%;
+    height: 70px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 15px;
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+
+ 
+    
+}
+
+.container label {
+    font-weight: bolder;
+  }
+
+
+  .container textarea:focus {
+    border:  1.5px solid rgb(70, 222, 242);  
+  }
+  
+  .container textarea ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .container textarea::-webkit-scrollbar {
+    display: none;
+  }

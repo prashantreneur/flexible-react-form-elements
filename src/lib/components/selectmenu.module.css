@@ -1,0 +1,17 @@
+.container select {
+    padding: 12px;
+    width: 100%;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    
+}
+
+
+.container select:focus {
+    border:  1.5px solid rgb(70, 222, 242);  
+}
